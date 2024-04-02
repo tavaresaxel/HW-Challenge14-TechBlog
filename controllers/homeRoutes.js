@@ -90,9 +90,6 @@ router.get('/login', (req, res) => {
 });
 
 
-//http://localhost:3001/page1
-router.get("/page1",async(req,res)=>{
-  res.render("page1")
-})
+
 
 module.exports = router;
