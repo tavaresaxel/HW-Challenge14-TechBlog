@@ -2,7 +2,7 @@
   <h2>{{title}}</h2>
   <p>{{contents}}</p>
   <p>Created by {{user.username}} on {{format_date date_created}}</p>
-  <form class="form new-comments-form"></form>
+  <form class="form new-comments-form" data-id="{{id}}">
   <div class="form-group">
         <label for="post-comments">comments:</label>
         <textarea class="form-input" id="post-comments" name="post-comments"></textarea>
@@ -14,4 +14,4 @@
   </div>
 </div>
 
-{{!-- <script src="./js/post.js"></script> --}}
+<script src="../public/js/post.js"></script>
