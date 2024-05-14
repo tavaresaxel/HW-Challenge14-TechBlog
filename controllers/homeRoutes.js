@@ -41,11 +41,14 @@ router.get('/post/:id', async (req, res) => {
           model: User,
           attributes: ['username'],
         },
+        {
+          model: Comment
+        }
       ],
     });
 
     const post = postData.get({ plain: true });
-
+      console.log(post)
     res.render('post', {
       ...post,
       logged_in: req.session.logged_in
