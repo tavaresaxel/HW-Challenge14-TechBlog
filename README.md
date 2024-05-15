@@ -16,15 +16,15 @@ Techblog is a website that is made so preople can talk about the latest tech new
 
 ## Installation
 
-To use the website make sure you download my repository from my Github link will be at the bottom of the readme. Then make sure to use commands "npm i" to install required nodes then do the command "npm run seed" to seed the database and have some starting default post in the website. Last but not least do "npm start" and go to the wesite and should be fully functional.
+To use the website just click this link: https://tech-blog-14-at-7a2ea2c5828e.herokuapp.com/
 
 ## Usage
 
-To start using the project once you are in the website make sire to create and account by clicking the log in button and signing  up. Once you are signed up you will see  the prompt to create a new post that can ne seen by anyone that visits the website and if you click on the post you can leave a comment. You can also delete you post or delted comments left in your post.    
+To start using the project once you are in the website make sure to create and account by clicking the log in button and signing  up. Once you are signed up you will see  the prompt to create a new post that can ne seen by anyone that visits the website and if you click on the post you can leave a comment. You can also delete you post or delted comments left in your post.    
 
 ## Contributing
 
-This project was possible thanks to express, mysql and sequelize.
+This project was possible thanks to express, mysql , sequelize and heroku.
 
 ## License
 
